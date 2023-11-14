@@ -6,7 +6,7 @@ fun main(){
     //Second is using 'val' keyword when we creates a variable using 'val' keyword it creates immutable variable
     val valName: String = "This value will not reassign"
     //valName = "Changed value" // This line will through an error
-    /*If we doesnt declare datatype of a variable Than in that case this will not through any error because
+    /*If we doesnt specifies the datatype of a variable Than in that case this will not through any error because
     Kotlin is indeed a statically-typed programming language,
     but it incorporates features that make type declarations more concise and flexible compared to some other statically-typed languages.
     In Kotlin, there is a feature called type inference, which allows the compiler to automatically determine the type of a variable based on the assigned value.
